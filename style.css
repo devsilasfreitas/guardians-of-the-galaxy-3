@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+* {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+@font-face {
+    font-family: Guardians;
+    src: url('./font/Guardians.ttf');
+}
+
+.cabecalho {
+    display: flex;
+    height: 50px;
+    background-color: rgb(75, 75, 75);
+    padding: 20px;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Dosis;
+}
+
+.right {
+    display: flex;
+    gap: 45px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffed52;
+}
+
+.image {
+    background-image: url("./img/guardioes-da-galaxia-vol-2-critica.jpg");
+    background-size: cover;
+    height: 696px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo {
+    font-family: Guardians;
+    margin: 100px;
+    font-weight: 800;
+    color: white;
+    font-size: 30px;
+    max-width: 500px;
+}
+
+.subtitulo {
+    font-family: Guardians;
+    font-size: 30px;
+    max-width: 400px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.data {
+    margin-top: 30px;
+    font-size: 35px;
+}
+.cards {
+    height: auto;
+    color: white;
+    padding: 50px;
+    display: flex;
+    gap: 75px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.personagens {
+    background-color: rgb(53, 53, 53);
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.imagem-personagem {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.nome-personagem {
+    text-align: center;
+}
